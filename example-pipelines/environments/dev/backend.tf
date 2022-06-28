@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "winged-odyssey-354409-tfstate"
     prefix = "env/dev"
   }
 }
