@@ -16,7 +16,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "winged-odyssey-354409-tfstate"
-    prefix = "jenkins"
+    bucket = "weighty-replica-383308-tfstate"
+    prefix = "env/dev"
   }
 }
